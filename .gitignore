@@ -14,8 +14,6 @@ venv/
 .vscode/
 
 # Data & figures
-clean_data/
-dataset/raw_data/
 figure/
 *.npz
 *.pt
@@ -29,3 +27,8 @@ figure/
 
 # Logs
 *.log
+
+# Heavy data (avoid pushing large artifacts)
+clean_data/
+dataset/raw_data/
+dataset/qm9/pyg/
