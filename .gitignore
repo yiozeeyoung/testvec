@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.env
+.venv
+venv/
+.idea/
+.vscode/
+
+# Data & figures
+clean_data/
+dataset/raw_data/
+figure/
+*.npz
+*.pt
+*.png
+*.svg
+*.pdf
+*.csv.zip
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
